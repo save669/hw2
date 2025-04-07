@@ -1,0 +1,152 @@
+* {
+    /* Свойства для сброса начальных стилей элементов */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #303030;
+}
+
+header {
+    /* Стили для хедера */
+    background: #2965f1;
+    padding: 23px 0;
+
+}
+
+header span {
+    /* Стили для текста в хедере IT-INCUBATOR */
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.main-section {
+    /* Стили для первой секции */
+    background: #fafaff;
+    padding: 60px 0;
+    min-height: 100vh;
+    ;
+}
+
+.main-title {
+    /* Стили для заголовка в первой секции */
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.main-text {
+    /* Стили для текста в первой секции */
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main-image {
+    /* Стили для изображения в первой секции */
+    max-width: 715px;
+}
+
+
+.about-section {
+    /* Стили для второй секции */
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+select {
+    /* Стили для выпадающего списка */
+    width: 150px;
+    padding: 8px 12px;
+    background: url(./ep_arrow-down.svg) no-repeat right 10px top 50%;
+    appearance: none;
+}
+
+.section-title {
+    /* Стили для заголовков во второй секции */
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.frameworks-list {
+    /* Стили для маркированного списка во второй секции */
+    list-style-image: url(./Vector\ \(1\).svg);
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.books-list {
+    /* Стили для нумерованного списка во второй секции */
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.label {
+    /* Стили для подписей чекбоксов */
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.text-field {
+    /* Стили для односточного поля ввода текста */
+    width: 330px;
+    padding: 9px 12px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(48, 48, 48, 0.2);
+}
+
+.btn {
+    /* Стили для кнопки */
+    border-radius: 5px;
+    border: none;
+    width: 125px;
+    height: 36px;
+    background-color: #2965f1;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+.line {
+    /* Стили для линии */
+    margin: 60px 0;
+}
+
+table {
+    /* Стили для таблицы */
+    border: 1px solid #95a1bb;
+    border-collapse: collapse;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+th,
+td {
+    /* Стили для ячеек таблицы */
+    padding: 11px 15px;
+}
+
+footer {
+    /* Стили для футера */
+    background-color: rgba(163, 167, 255, 0.3);
+    padding: 27px 0;
+}
+
+.footer-link {
+    /* Стили для футера */
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+}
